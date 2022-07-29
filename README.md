@@ -83,7 +83,7 @@ The steps for this task are divided into the following sections:
 ---
 #### Step 3: Interact with Your Deployed Smart Contract
 
-   1. Set to use authorized Ethereum address using function `setAccounts`</br>
+   1. Set to use authorized Ethereum address `setAccounts`</br>
       [](Execution_Results/Set_Account_Address.png)
       
        * Accounts address used.</br>
@@ -92,7 +92,7 @@ The steps for this task are divided into the following sections:
         >  account2 address: 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0
         > ```
 
-   2. Testing deposit functionality</br>
+   2. Testing deposit function</br>
         
         * Transaction 1: Send 1 ether as wei.</br>
           ![Transaction Input](Execution_Results/transaction_1_Input.png)
@@ -109,10 +109,10 @@ The steps for this task are divided into the following sections:
 
    3. Testing withdrawel function</br>
    
-        * Withdrawel: 5 ether into accountOne.</br>
+        * Withdrawel - 5 ether into accountOne.</br>
              ![Transaction Input](Execution_Results/AccountOne_Result.png)
              
-        * Withdrawel: 10 ether into accountTwo.</br>
+        * Withdrawel - 10 ether into accountTwo.</br>
           ![Transaction Input](Execution_Results/AccountTwo_Result.png)
                   
           
