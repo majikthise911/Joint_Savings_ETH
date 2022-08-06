@@ -14,9 +14,7 @@ To automate the creation of joint savings accounts, you’ll create a Solidity s
 
 * A folder named `Execution_Results` that contains at least eight images. These images should confirm that the deposit and withdrawal transactions, which are designed to test the `JointSavings` functionality in the JavaScript VM, worked as expected.
 
-### Instructions
-
-The steps for this homework are divided into the following sections:
+### Steps
 
 1. Create a Joint Savings Account Contract in Solidity
 
@@ -62,7 +60,7 @@ The steps for this homework are divided into the following sections:
 
 7. Add a fallback function so that your contract can store ether that’s sent from outside the deposit function.
 
-#### Step 2: Compile and Deploy Your Contract in the JavaScript VM
+#### Step 2: Compile and Deploy Contract in the JavaScript VM
 
 1. Compile your smart contract. If an error occurs, review your code, and make the necessary changes for a successful compilation.
 
@@ -70,7 +68,7 @@ The steps for this homework are divided into the following sections:
 
 3. Click the Deploy button to deploy your smart contract, and then confirm that it successfully deployed.
 
-#### Step 3: Interact with Your Deployed Smart Contract
+#### Step 3: Interact with Deployed Smart Contract
 
 Now that your contract is deployed, it’s time to test its functionality! After each step, capture a screenshot of the execution, and then save it in a folder named `Execution_Results`. You’ll share this folder with your final submission.
 
@@ -85,7 +83,7 @@ To interact with your deployed smart contract, complete the following steps:
     > Dummy account2 address: 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0
     > ```
 
-2. Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to your contract:
+2. Test the deposit functionality of smart contract by sending the following amounts of ether. After each transaction, use the `contractBalance` function to verify that the funds were added to the contract:
 
     * Transaction 1: Send 1 ether as wei.
 
@@ -93,19 +91,9 @@ To interact with your deployed smart contract, complete the following steps:
 
     * Transaction 3: Send 5 ether.
 
-    > **Note** Remembering how to convert ether to wei and vice versa can be challenging. So, you can use a website like [Ethereum Unit Converter](https://eth-converter.com/) to ease doing the conversion.
+    > **Note** Remembering how to convert ether to wei and vice versa can be challenging. So, use a website like [Ethereum Unit Converter](https://eth-converter.com/) to ease doing the conversion.
 
 3. Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into `accountOne` and 10 ether into `accountTwo`. After each transaction, use the `contractBalance` function to verify that the funds were withdrawn from your contract. Also, use the `lastToWithdraw` and `lastWithdrawAmount` functions to verify that the address and amount were correct.
 
 ---
-
-### Submission
-
-* Upload the files for this assignment to your GitHub repository.
-
-* Submit the link to your GitHub repo on Bootcamp Spot.
-
----
-
-© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
 
